@@ -1,0 +1,7 @@
+streamlit
+fastapi
+uvicorn[standard]
+aggdraw
+pillow
+requests
+json
