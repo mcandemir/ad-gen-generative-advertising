@@ -102,7 +102,7 @@ def send_request():
         f.write(load)
 
     st.session_state['response'] = requests.post(
-        url='http://127.0.0.1/generate',
+        url='http://127.0.0.1:81/generate',
         json=payload
     )
 
@@ -125,7 +125,7 @@ col1, col2, col3, col4, col5, col6 = st.columns([0.2, 0.01, 0.2, 0.1, 0.2, 0.2])
 with col1:
     st.markdown('### ')
     prompt_input = st.text_area('**Prompt:**', value="a cardboard coffee cup on the table")
-    punchline_input = st.text_area('**Punchline:**', value="Creativity is seeing what others see and thinking what no one else ever thought.")
+    punchline_input = st.text_area('**Punchline:**', value="Creativity is seeing what others see and thinking what no one else ever thought.", max_chars=138)
     button_input = st.text_area('**Button Text:**', value="Philosophy is fun!")
 
 with col3:
@@ -172,7 +172,7 @@ if st.session_state['generated']:
     
     st.title(' ')
 
-    st.image('generated_ads/creation.png')
+    st.image('generated_ads/creation.png', width=768)
 
 
 
