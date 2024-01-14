@@ -42,9 +42,9 @@ class Img2Img:
         r = r.json()
 
         # save request log for future debug
-        formatted = json.dumps(r)
-        with open('response.json', 'w') as f:
-            json.dump(formatted, f)
+        # formatted = json.dumps(r)
+        # with open('response.json', 'w') as f:
+        #     json.dump(formatted, f)
 
         # save image if successfull
         try:
