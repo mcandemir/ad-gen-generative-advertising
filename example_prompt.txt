@@ -1,0 +1,1 @@
+-i "resources/adai.png" -p "a cardboard coffee on the table between flowers" -l "resources/logo.png" -c "red" -pl "Creativity is seeing what others see and thinking what no one else ever thought." -pc 90 0 0 -b "Philosophy is cool" -bc 30 30 90
