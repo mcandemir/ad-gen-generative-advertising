@@ -11,7 +11,7 @@ _This project uses stable-diffusion-webui by AUTO1111_
 - Clone the project
 
 ```shell
-git clone https://github.com/mcandemir/AdGen.git
+git clone https://github.com/mcandemir/ad-gen-generative-advertising.git
 cd adgen
 git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui.git
 ```
