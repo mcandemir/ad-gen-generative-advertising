@@ -92,9 +92,10 @@ def send_request():
             "button_color": list(ImageColor.getcolor(button_color_input, 'RGB'))
             }
 
-    load = json.dumps(payload)
-    with open('payload.json', 'w') as f:
-        f.write(load)
+    # # payload logs for debuggind
+    # load = json.dumps(payload)
+    # with open('payload.json', 'w') as f:
+    #     f.write(load)
 
     st.session_state['response'] = requests.post(
         url='http://127.0.0.1:81/generate',
