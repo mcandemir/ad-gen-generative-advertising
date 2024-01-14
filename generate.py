@@ -1,6 +1,5 @@
 from img2img import Img2Img
 import argparse
-import ast
 
 
 parser = argparse.ArgumentParser(description='Description of your program')

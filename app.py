@@ -1,5 +1,3 @@
-import os
-import time
 import streamlit as st
 import requests
 from PIL import ImageColor
@@ -7,9 +5,6 @@ from PIL import Image
 import base64
 from io import BytesIO
 import json
-import colour
-import matplotlib.pyplot as plt
-
 
 st.set_page_config(layout='wide')
 
