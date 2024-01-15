@@ -1,5 +1,5 @@
 # AdGen
-A stable-diffusion ad generation project with a user-interface built with stremamlit and API request model using FastAPI
+A stable-diffusion ad generation project with a user-interface built with streamlit and API request model using FastAPI
 
 ![Alt text](previewimg/image-1.png)
 
